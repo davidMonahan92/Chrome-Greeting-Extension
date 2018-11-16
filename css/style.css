@@ -1,0 +1,54 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #c670ca;
+	background-image: linear-gradient(45deg, #c670ca 0%, #25a5c8 52%, #20e275 90%);
+}
+
+.settings {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	transform: translateX(-100%);
+	transition: transform 1s;
+}
+
+.settings-open.settings {
+	transform: none;
+}
+
+input {
+	padding: 5px;
+	font-size: 12px;
+	width: 150px;
+	height: 12px;
+}
+
+button {
+	height: 30px;
+	width: 70px;
+	background: none; /* Removes default background */
+	color: #313131;
+	border: 1px solid #313131;
+	border-radius: 50px;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+form {
+	padding-top: 20px;
+}
+
+.greeting-container {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.greeting {
+	font-family: sans-serif;
+	font-size: 60px;
+	color: #fff;
+}
